@@ -195,7 +195,7 @@
   function poolHint() {
     var n = pool().length;
     el.quizPoolHint.textContent = n
-      ? '출제 대상 ' + n.toLocaleString('ko-KR') + '개 중 ' + Math.min(cfg.count, n) + '문항을 무작위로 출제한다.'
+      ? '출제 대상 ' + n.toLocaleString('ko-KR') + '개 중 ' + Math.min(cfg.count, n) + '문항을 무작위로 출제'
       : '해당 범위에 용어가 없다.';
     el.quizStart.disabled = !n;
   }
