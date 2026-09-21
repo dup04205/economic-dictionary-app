@@ -96,7 +96,7 @@
       return '<div class="bar-row">' +
         '<div class="bar-top"><span>' + esc(t) + '</span><b>' + pct + '% (' + v.k + '/' + v.n + ')</b></div>' +
         '<div class="bar"><div class="bar-fill" style="width:' + pct + '%"></div></div></div>';
-    }).join('') : '<p class="hint">아직 푼 문제가 없다.</p>';
+    }).join('') : '<p class="hint">아직 푼 문제가 없습니다.</p>';
   }
 
   /* ---------- 부트 ---------- */
